@@ -9,8 +9,8 @@ public class Dmo {
 			System.out.println(a/c);
 		}
 		catch(Exception e) {
-		//	System.out.println("Don't divide by 0");
-//			System.out.println(e);
+		System.out.println("Don't divide by 0");
+	    System.out.println(e);
 			e.printStackTrace();
 		}
 		System.out.println("Bye..");
